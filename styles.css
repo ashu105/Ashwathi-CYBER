@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 2000px; /* For scrolling effect */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 15px 20px;
+    transition: background 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s, background 0.3s;
+}
+
+.navbar a:hover {
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.scrolled a {
+    color: white;
+}
